@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  min-width: 100%;
+}
+
+h1 {
+  color: #AFE1AF;
+  font-size: 200%;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plant-left, .plant-right {
+  flex-basis: 15%;
+}
+
+.question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.lightbulb {
+  flex-basis: 5%;
+}
+
+.answer {
+  background-color: #AFE1AF;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.q {
+  color: #AFE1AF;
+  font-size: 150%;
+}
+
+.q-1, .q-2, .q-3 {
+  margin-top: 50px;
+}
